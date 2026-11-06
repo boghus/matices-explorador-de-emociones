@@ -7,18 +7,40 @@ Aplicación interactiva para explorar, identificar y comprender emociones median
 - React
 - TypeScript
 - Vite
-- Tailwind CSS
+- Tailwind CSS v4
+
+## Requisitos
+
+- Node.js 20.19+ o 22.12+
+- npm
+
+## Desarrollo local
+
+```bash
+npm install
+npm run dev
+```
+
+## Validación
+
+```bash
+npm run typecheck
+npm run build
+```
+
+## Estado del MVP
+
+La primera entrega implementa una rueda radial interactiva con selección múltiple de las seis etiquetas principales visibles en la imagen de referencia.
+
+**El catálogo completo aún no está validado.** Las etiquetas iniciales se mantienen marcadas como pendientes de validación y no se inventan emociones de segundo o tercer nivel. La siguiente etapa es transcribir y verificar el catálogo completo contra la fuente original.
 
 ## Principios de experiencia
 
 - La rueda funciona como un mapa de exploración, no como un árbol de navegación obligatorio.
-- Se puede seleccionar una emoción en cualquier nivel de profundidad.
-- La exploración es libre: no es necesario llegar al nivel más específico.
-- Se pueden seleccionar varias emociones, incluso de distintas ramas.
-
-## Estado
-
-Proyecto en etapa inicial. El catálogo de emociones debe transcribirse y validarse contra la fuente de referencia antes de considerarse definitivo.
+- Se puede seleccionar una emoción directamente.
+- Se pueden seleccionar varias emociones.
+- La persona puede detenerse cuando quiera.
+- La interfaz no diagnostica ni juzga.
 
 ## Fuente de referencia
 
